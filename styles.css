@@ -1,0 +1,19 @@
+body {
+    background-color: darkgray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.header {
+    max-width: 750px;
+    margin: auto;
+    background-color: darkgray;
+    
+}
+
+.photo {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.content {
+
+}
