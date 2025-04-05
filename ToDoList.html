@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Моя визитка</title>
     <link  href="styles.css" rel="stylesheet"/>
+    
 </head>
 <body>
+    
     <div class="body">
         <div class="blok-menu">
         <div class="logotip">
@@ -24,20 +26,26 @@
                 </p>
             </div>
         </div>
-    </div>    
-<div class="zagalovok">
+    </div>
+<div class="telo" >       
+<div class="todo-container">
     <h2>
         Представляю вашему вниманию список моих дел!
     </h2>
+    <div class="input-section">
+        <input type="text" id="todo-input" placeholder="Добавьте новую задачу...">
+        <button id="add-boton">Добавить</button>
+    </div>
+    <ul id="todo-list"></ul>
 </div>
-<div class="ToDoList">
-
 </div>
 <div class="niz">
     <p>
         Ершов 2025 г.
     </p>
 </div>
+
+<script src="script.js"></script>
 </div>
 </body>
 </html>
