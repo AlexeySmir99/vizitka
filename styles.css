@@ -42,14 +42,7 @@ body {
   text-decoration: none;
 }
 
-#home {
-  max-width: 100px;
-  min-width: 100px;
-  height: 50px;
-  background: rgb(27, 30, 35);
-}
-
-#affairs {
+.content.menu-btn {
   max-width: 100px;
   min-width: 100px;
   height: 50px;
@@ -109,7 +102,7 @@ body {
   align-content: space-between;
 }
 
-#dim {
+.dim {
   max-width: 400px;
   min-width: 350px;
   height: 500px;
@@ -118,7 +111,6 @@ body {
 .content {
   background-color: white;
   border-radius: 50px;
- 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: 0.2s;
@@ -150,6 +142,7 @@ body {
 
 .todo-container {
   max-width: 600px;
+  min-width: 300px;
   background: white;
   padding: 20px;
   border-radius: 8px;
