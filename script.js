@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (taskText === '') return;
 
        
-        creatingAnElement(taskText);
+        creatingAnElement(taskText, false);
     
         todoInput.value = '';
        
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const tasks = JSON.parse(savedTasks);
 
             tasks.forEach(task => {
-                creatingAnElement(taskText, checked);
+                creatingAnElement(task.text, task.completed);
             });
         }
     }
