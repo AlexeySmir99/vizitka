@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const addBtn = document.getElementById('add-boton');
     const todoList = document.getElementById('todo-list');
     
-    // Загрузка задач из localStorage
+   
     loadTasks();
 
-    // Добавление новой задачи
+    
     addBtn.addEventListener('click', addTask);
     todoInput.addEventListener('keypress', function(e) 
     {
