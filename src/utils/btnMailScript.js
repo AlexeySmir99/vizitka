@@ -11,9 +11,9 @@ document.getElementById('sendButton').addEventListener('click', function()
     const tempLink = document.createElement('a');
     tempLink.href = mailtoLink;
     
-    document.body.appendChild(tempLink);
+    
     
     tempLink.click();
     
-    document.body.removeChild(tempLink);
+    
 });
